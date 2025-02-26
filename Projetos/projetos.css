@@ -1,0 +1,115 @@
+
+body {
+    background-image:url(./145.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    backdrop-filter: blur(10px);
+}
+
+.header {
+    padding-top: 10px;
+    bottom: 0;
+    padding-right: 100px;
+    padding-left: 100px;
+    z-index: 99;
+}
+
+.header img{
+    height:60px ;
+    padding-top: 10px;
+}
+
+.header H3 {
+    font-weight: 100;
+    text-align: center;
+    padding-right: 1000PX;
+    color: #dcffe6;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20PX;
+    letter-spacing: 5PX;
+}
+
+.nav{
+    position: fixed;
+    left: 0;
+    right: 0;
+    padding-right: 100px;
+    padding-left: 100px;
+    
+}
+
+.header nav {
+    background: transparent;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border: solid white 1px;
+    border-radius: 80px;
+}
+
+a {
+    display: flex;
+    color: #ffff;
+    text-decoration: none;
+    padding-top: 10px;
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+    font-size: 18px;
+}
+
+.header button {
+    background-color: #1392de;
+    border: solid #dcffe6 1px;
+    border-radius: 10px;
+}
+
+.header button, a {
+    color: white;
+    font-family: "Signika Negative", serif;
+    font-optical-sizing: auto;
+    font-weight: 599;
+    font-style: normal;
+}
+
+main h1{
+    text-align: center;
+    padding-top: 10rem;
+    color:#3c4276 ;
+    font-weight: 600;
+    font-size: 3.5rem;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    padding-right: 40rem;
+}
+
+main p{
+    color: white;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-size: 1.8rem;
+    padding-right: 40rem;
+}
+
+.img img{
+    display: flex;
+    height: 400px;
+    padding-left: 20rem;
+}
+
+header{
+    display: flex;
+    display: inline-block;
+}
+.nav2{
+    display: flex;
+    padding-top: 40rem;
+    padding-left: 70rem;
+
+}
